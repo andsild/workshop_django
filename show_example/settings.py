@@ -63,7 +63,7 @@ WSGI_APPLICATION = 'show_example.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
-MYSQL = True
+MYSQL = False
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 if MYSQL:

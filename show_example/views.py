@@ -1,8 +1,6 @@
 from django.shortcuts import HttpResponseRedirect, render_to_response, render
 from django.core.context_processors import csrf
 
-from random import randint
-
 from models import Person
 from forms import PersonForm
 
