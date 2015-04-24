@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>My test site</title>
+</head>
+
+<body>
+    Hello, {{ whoever }}
+
+    <br />
+    Would you like to meet any of these?
+    <table>
+    {% for GUY in people %}
+    <tr> <td>{{ GUY }} </td>
+    </tr>
+    {% endfor %}
+    <table>
+
+        <h3> {{ complexObjects.number }} </h3>
+
+
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+
+
+        <form action="/newperson/" method="POST">
+            {% csrf_token %}
+            {{ new_person_form }}
+            <input type="submit" value="Submit" />
+        </form>
+
+        
+</body>
+
+</html>
