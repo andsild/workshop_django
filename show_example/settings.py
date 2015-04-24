@@ -1,4 +1,9 @@
 """
+You should not have to touch this I hope :)
+
+
+
+
 Django settings for show_example project.
 
 For more information on this file, see
