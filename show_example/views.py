@@ -6,7 +6,7 @@ from forms import *
 
 
 #TODO: Create a view and render context
-#TODO: Render a custom context
+#TODO: Implement custom URL
 
 #TODO: Create a model
 #TODO: Show the model
@@ -18,7 +18,8 @@ from forms import *
 def home(request, *args, **kwargs):
     #TODO: implement me!
 
-    context = {}
+    context = {
+              }
     return render_to_response('index.html',
                   context,
                   );
