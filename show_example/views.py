@@ -1,8 +1,8 @@
 from django.shortcuts import HttpResponseRedirect, render_to_response, render
 from django.core.context_processors import csrf
 
-from models import Person
-from forms import PersonForm
+from models import *
+from forms import *
 
 
 #TODO: Create a view and render context
