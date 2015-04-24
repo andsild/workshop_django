@@ -14,6 +14,14 @@ from forms import *
 
 #TODO: Creating a form to show the model
 
+#TODO: Integrating to admin interface
+#TODO: Quickshow IDIOpen
+
+####### if availible_time > 0
+#TODO: Appending DOB to model (form)
+#TODO: Quickshow Mezzanini
+####### endif
+
 
 def home(request, *args, **kwargs):
     #TODO: implement me!
